@@ -1,18 +1,9 @@
 * {
     box-sizing: border-box;
 }
-#img-1 {
-    position: relative;
-    left: 43%;
-}
 #box1 {
     background-color: #B9B973;
     height: 350px;
-}
-h1 {
-    font-size: 70px;
-    color: #B87070;
-    text-align: center;
 }
 h1#h1-1 {
     position: relative;
@@ -27,15 +18,15 @@ h3 {
 .center {
     text-align: center;
     font-size: 70px;
-    position: relative;
-    top: -20px;
+}
+h1 {
+    font-size: 70px;
+    color: #B87070;
+    text-align: center;
 }
 p {
     font-size: 20px;
     text-align: left;
-}
-#img-2 {
-    float: right;
 }
 #text-column2 {
     -moz-column-count: 2;
@@ -49,13 +40,18 @@ p {
     color: #B87070;
     font-size: 22px;
     //垂直置中
-    height: 65px;
-    line-height: 65px;
+    height: 48px;
+    line-height: 48px;
     background-color: #B9B973;
+}
+h2{
+    font-size: 50px;
 }
 [class*="col-"] {
     padding: 10px;
     margin: 0 auto;
+    min-height: 1px;
+    float: left;
 }
 .row:after {
     content: "";
