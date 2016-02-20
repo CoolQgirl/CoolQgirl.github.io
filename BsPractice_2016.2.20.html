@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="author" content="NTU CSIE Information System Training Course">
+	<meta name="keywords" content="Keyword 1,Keyword 2">
+	<meta name="description" content="description">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/favicon.png">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">	
+
+	<title>title</title>
+</head>
+<body>
+	<ul class="nav nav-tabs">
+		<li><a data-toggle="tab" href="#title1">list item1</a></li>
+		<li class="dropdown">
+			<a data-toggle="dropdown" href="#">list item2<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a data-toggle="tab" class="dropdown-toggle" href="#title2">sub item1</a></li>
+					<li><a data-toggle="tab" class="dropdown-toggle" href="#title2">sub item2</a></li>
+					<li><a data-toggle="tab" class="dropdown-toggle" href="#title2">sub item3</a></li>
+				</ul>
+		</li>
+		<li><a data-toggle="tab" href="#title3">list item3</a></li>
+		<li><a data-toggle="tab" href="#title4">list item4</a></li>
+		<li><a data-toggle="tab" href="#title5" >list item5</a></li>
+	</ul>
+
+	<div class="tab-content">
+		<div id="title1" class="tab-pane fade in">
+			<h1>Title1</h1>
+			<p>lorem</p>
+		</div>
+		<div id="title2" class="tab-pane fade in">
+			<h1>Title2</h1>
+			<p>lorem</p>
+		</div>
+		<div id="title3" class="tab-pane fade in">
+			<h1>Title3</h1>
+			<p>lorem</p>
+		</div>
+		<div id="title4" class="tab-pane fade in">
+			<h1>Title4</h1>
+			<p>lorem</p>
+		</div>
+		<div id="title5" class="tab-pane fade in">
+			<h1>Title5</h1>
+			<p>lorem</p>
+		</div>
+	</div>
+	
+	<nav class="nav navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">網站名稱</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a data-toggle="tab" href="#title1">list item1</a></li>
+				<li class="dropdown">
+					<a data-toggle="dropdown" href="#">list item2<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a data-toggle="tab" class="dropdown-toggle" href="#title2">sub item1</a></li>
+							<li><a data-toggle="tab" class="dropdown-toggle" href="#title2">sub item2</a></li>
+							<li><a data-toggle="tab" class="dropdown-toggle" href="#title2">sub item3</a></li>
+						</ul>
+				</li>
+				<li><a data-toggle="tab" href="#title3">list item3</a></li>
+				<li><a data-toggle="tab" href="#title4">list item4</a></li>
+				<li><a data-toggle="tab" href="#title5" >list item5</a></li>
+			</ul>
+		</div>	
+	</nav>
+
+	<nav class="navbar navbar-default">
+		<div class="navbar-header"><button class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+				<i class="icon-bar"></i>
+				<i class="icon-bar"></i>
+				<i class="icon-bar"></i>
+			</button><a href="#" class="navbar-brand">brand</a></div>
+		<div id="navbar1" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#">title1</a></li>
+				<li><a href="#">title2</a></li>
+				<li><a href="#">title3</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	
+	<div id="top-Carousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="top-carousel" data-slide-to="0"></li>
+			<li data-target="top-carousel" data-slide-to="1"></li>
+			<li data-target="top-carousel" data-slide-to="2"></li>
+			<li data-target="top-carousel" data-slide-to="3"></li>
+			<li data-target="top-carousel" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-innner" role="listbox">
+			<div class="item"><img src="" alt=""></div>
+			<div class="item"><img src="" alt=""></div>
+			<div class="item"><img src="" alt=""></div>
+			<div class="item"><img src="" alt=""></div>
+			<div class="item"><img src="" alt=""></div>
+		</div>
+		<a href="#top-carousel" class="left carousel-control" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>	
+		</a>
+		<a href="#top-carousel" class="right carousel-control" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>	
+		</a>
+	</div>
+	
+
+	
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js">	</script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js">	</script>
+</body>
+</html>
